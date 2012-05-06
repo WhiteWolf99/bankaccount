@@ -43,7 +43,7 @@ class BankAccountControllerTest extends ControllerTestCase
 
         $view = $this->controller->execute($this->request, $this->response);
 
-        $this->assertEquals('bankaccount\\view\\BankAccount', null);
+        $this->assertEquals('bankaccount\\view\\BankAccount', $view);
     }
 
     /**
